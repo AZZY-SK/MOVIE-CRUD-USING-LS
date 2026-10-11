@@ -1,0 +1,45 @@
+  
+
+  :root{
+       --primary-color:#e50914;
+       --primary-hover-color:rgb(193,17,25);
+       --sec-color:#212529;
+       --color-white:#fff;
+       --color-dark:#000;
+  }
+
+
+  .logo{
+       display: inline-block;
+       width: 150px;
+  }
+
+  .logo img{
+          width: 100%;
+  }
+
+ .net-primary-btn{
+    background-color: var(--primary-color);
+    color: var(--color-white)!important;
+    
+  }
+
+  .net-primary-btn:hover{
+       
+      background-color:var(--primary-hover-color) ; 
+       
+        transition: all 0.4s ease-in-out;
+
+  }
+
+   .net-sec-btn{
+    background-color: var( --sec-color);
+    color:var(--color-white)
+  }
+
+
+  #row1{
+         left: 0;
+         top: 0;
+         
+  }
